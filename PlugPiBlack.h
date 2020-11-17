@@ -14,7 +14,7 @@ class PlugPiBlack {
   uint8_t _yellowLedPin = 10;
   uint8_t _buzzerPin = 13;
   uint8_t _ldrPin = 18;
-  uint16_t _baudRate = 115200;
+  uint8_t _baudRate = 115200;
 };
 
 #endif  // __PLUGPIBLACK_H__
