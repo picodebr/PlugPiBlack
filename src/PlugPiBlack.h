@@ -23,10 +23,13 @@ class PlugPiBlack {
 
   void redLedOn();
   void redLedOff();
+  void redLedPercent(uint8_t percent);
   void yellowLedOn();
   void yellowLedOff();
+  void yellowLedPercent(uint8_t percent);
   void greenLedOn();
   void greenLedOff();
+  void greenLedPercent(uint8_t percent);
 
  private:
   const uint8_t _greenLedPin = 9;
