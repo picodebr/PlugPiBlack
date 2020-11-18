@@ -12,3 +12,7 @@ void PlugPiBlack::setup() {
 }
 
 uint16_t PlugPiBlack::getLdrValue(void) { return analogRead(_ldrPin); }
+
+void PlugPiBlack::playMusicalNote(enum musicalNotes musicalNote) {
+  tone(_buzzerPin, musicalNote);
+}
