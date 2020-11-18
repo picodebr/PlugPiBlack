@@ -1,0 +1,23 @@
+PlugPiBlack	KEYWORD1
+
+# Musical Notes
+DO	KEYWORD2
+RE	KEYWORD2
+MI	KEYWORD2
+FA	KEYWORD2
+SOL	KEYWORD2
+SI	KEYWORD2
+
+# Free functions
+redLedOn	KEYWORD2
+redLedOff	KEYWORD2
+redLedPercent	KEYWORD2
+yellowLedOn	KEYWORD2
+yellowLedOff	KEYWORD2
+yellowLedPercent	KEYWORD2
+greenLedOn	KEYWORD2
+greenLedOff	KEYWORD2
+greenLedPercent	KEYWORD2
+playMusicalNote	KEYWORD2
+setup	KEYWORD2
+getLdrValue	KEYWORD2
