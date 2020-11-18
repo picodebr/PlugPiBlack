@@ -21,6 +21,13 @@ class PlugPiBlack {
 
   void playMusicalNote(enum musicalNotes musicalNote);
 
+  void redLedOn();
+  void redLedOff();
+  void yellowLedOn();
+  void yellowLedOff();
+  void greenLedOn();
+  void greenLedOff();
+
  private:
   const uint8_t _greenLedPin = 9;
   const uint8_t _redLedPin = 5;
